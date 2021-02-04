@@ -130,3 +130,4 @@ dmypy.json
 
 # directories
 dataset/
+pickle_files/
