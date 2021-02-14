@@ -18,6 +18,7 @@ To accomplish this task, I train the a Convolutional Nueral Network (CNN) using 
 
 
 ## Approach
+### Data and model preparation process
 
 ## Results
 
