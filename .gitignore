@@ -130,7 +130,14 @@ dmypy.json
 
 # directories
 dataset/
-pickle_files/
+
+# pickle_files
+train.pkl
+train_aug.pkl
+train_cat.pkl
+train_resnet.pkl
+val_cat.pkl
+val_resnet.pkl
 
 # models
 KNN_model.pkl
