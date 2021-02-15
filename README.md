@@ -37,6 +37,14 @@ The second dataset is called the [Handwritten names dataset](https://www.kaggle.
 **--Images of smaples from dataset go here--**
 
 #### Modeling
+Three models were trained on the Handwritten Character dataset. The baseline model, a K nearest Neighbors classifier, achieved its highest accuracy of 93.55% score with 1 neighbor. The best performing model overall was a deep convolutional neural network with 7 layers and 345,959 parameters. See chart below for details on the models' performance.
+
+|Model      |Description                 |Val set loss|Val set accuracy|
+|:----------|:---------------------------|:-----------|:---------------|
+|KNN Model  |1 Neighbor                  |--          |93.55%          |
+|CNN Model 1|4 layers, 163,367 parameters|0.1826      |94.62%          |
+|CNN Model 2|7 layers, 345,959 parameters|0.0864      |97.19%          |
+
 
 #### Character segmentation and names transcriptions
 
