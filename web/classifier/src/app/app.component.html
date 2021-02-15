@@ -5,6 +5,9 @@
       <div class="form-group">
         <label for="name">Upload File</label>
         <input type="file" (change)="postFile($event)">
+        <br/>
+        <h3 *ngIf="url">Uploaded Image:</h3>
+        <img src={{url}}>
       </div>
     </form>
     <div *ngIf="result">

@@ -19,12 +19,20 @@ export class Hero {
 })
 export class AppComponent {
   result = '';
+  url: string | ArrayBuffer | null = '';
   hasError = false;
 
   constructor(private readonly httpClient: HttpClient) {}
 
   postFile(event: any) {
-	  this.httpClient.post('/classify', event.target.files[0]).subscribe((response: any) => {
+  	const imagePath = event.target.files[0];
+  	const reader = new FileReader();
+    reader.readAsDataURL(imagePath); 
+    reader.onload = () => { 
+        this.url = reader.result; 
+    }
+
+	  this.httpClient.post('/classify', imagePath).subscribe((response: any) => {
 	    this.result = response.label;
 	  	this.hasError = false;
 	  }, () => {
