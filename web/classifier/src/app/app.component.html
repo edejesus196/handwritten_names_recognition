@@ -1,0 +1,21 @@
+<div class="container">
+  <div>
+    <h1>Upload an image below:</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Upload File</label>
+        <input type="file" (change)="postFile($event)">
+        <br/>
+        <h3 *ngIf="url">Uploaded Image:</h3>
+        <img src={{url}}>
+      </div>
+    </form>
+    <div *ngIf="result">
+      <hr>
+      <h2>Label: {{result}}</h2>
+    </div>
+    <div *ngIf="hasError">
+      <hr>
+     <h3 class="error">An error occured with the uploaded image. Please try again or upload a different image.</h3>
+    </div>
+  </div>
