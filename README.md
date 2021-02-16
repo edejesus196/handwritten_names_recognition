@@ -50,4 +50,6 @@ Three models were trained on the Handwritten Character dataset. The baseline mod
 
 ## Results
 
+<p><img src="./images/webb-app.gif"></p>
+
 ## Next Steps
