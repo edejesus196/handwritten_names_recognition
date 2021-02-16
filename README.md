@@ -22,13 +22,13 @@ In this case study I will demonstrate how to convert images of handwritten names
 
 ### Data and model preparation process
 1. **Acquire datasets**
-2. **Create Models to predict characters**
+2. **Create models to predict characters**
 3. **Perform character segmentation and names trancriptions**
 
 #### Datasets
 Two datasets, both obtained from Kaggle.com, were used to train the models and to test the model that performed best on the validation set.
 
-The first dataset is called the [Handwritten Characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0 -9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
+The first dataset is called the [Handwritten Characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0-9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
 
 **--Images of smaples from dataset go here--**
 
@@ -45,6 +45,7 @@ Three models were trained on the Handwritten Character dataset. The baseline mod
 |CNN Model 1|4 layers, 163,367 parameters|0.1826      |94.62%          |
 |CNN Model 2|7 layers, 345,959 parameters|0.0864      |97.19%          |
 
+<p><img src="./images/CNN_model_3 - architecture.png"></p>
 
 #### Character segmentation and names transcriptions
 
