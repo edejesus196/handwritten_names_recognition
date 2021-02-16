@@ -1,4 +1,4 @@
-<p><img src="./images/git-hub-header-2.png" alt="Header"></p>
+<p><img src="./images/git-hub-header-3.png" alt="Header"></p>
 
 # Hand Printed Names Recognition
 ## Using Convolutional Neural Networks to convert handwritten names images into machine-encoded text
