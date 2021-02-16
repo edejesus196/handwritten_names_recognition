@@ -19,7 +19,7 @@ The ability to automate the process of converting handwriting text to machine-en
 
 ## Approach
 
-In this case study I will demonstrate how to convert images of handwritten names into machine-encoded text using machine learning and computer vision techniques. Three major steps were taken to accomplish this task:
+In this project I will demonstrate how to convert images of handwritten names into machine-encoded text using machine learning and computer vision techniques. Three major steps were taken to accomplish this task:
 
 ### Data and model preparation process
 1. **Acquire datasets**
