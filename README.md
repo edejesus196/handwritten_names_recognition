@@ -1,6 +1,5 @@
 <p><img src="./images/git-hub-header-3.png" alt="Header"></p>
 
-# Hand Printed Names Recognition
 ## Using Convolutional Neural Networks to convert handwritten names images into machine-encoded text
 Author: [Edward De Jesus](https://github.com/edejesus196) | Web App developer: [Amauris De Jesus ](https://github.com/Amauris)
 
