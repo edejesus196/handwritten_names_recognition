@@ -29,7 +29,7 @@ In this project I will demonstrate how to convert images of handwritten names in
 #### Datasets
 Two datasets, both obtained from Kaggle.com, were used to train the models and to test the model that performed best on the validation set.
 
-The first dataset is called the [Handwritten Characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0-9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
+The first dataset is called the [Handwritten characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0-9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
 
 <p>
 <figure>
@@ -40,7 +40,14 @@ The first dataset is called the [Handwritten Characters dataset](https://www.kag
 
 The second dataset is called the [Handwritten names dataset](https://www.kaggle.com/landlord/handwriting-recognition). This dataset was  used to test the model’s ability to recognize characters of unseen data by predicting on individual characters and then appending these predictions into one word and  forming a name.  The dataset contains 206,799 images of first names and 207,024 of last names. 
 
-**--Images of smaples from dataset go here--**
+<p>
+<figure>
+  <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00411.jpg" alt="samples">
+    <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00412.jpg" alt="samples">
+    <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00413.jpg" alt="samples">
+  <figcaption><em>Samples from Handwritten Names dataset</em></figcaption>
+</figure>
+</p>
 
 #### Modeling
 Three models were trained on the Handwritten Character dataset. The baseline model, a K nearest Neighbors classifier, achieved its highest accuracy of 93.55% score with 1 neighbor. The best performing model overall was a deep convolutional neural network with 7 layers and 345,959 parameters. See chart below for details on the models' performance.
