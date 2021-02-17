@@ -42,9 +42,9 @@ The second dataset is called the [Handwritten names dataset](https://www.kaggle.
 
 <p>
 <figure>
-  <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00411.jpg" alt="samples">
-    <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00412.jpg" alt="samples">
-    <img src=".dataset/handwritting_names/train_v2/train/TRAIN_00413.jpg" alt="samples">
+  <img src="./dataset/handwritting_names/train_v2/train/TRAIN_00411.jpg" alt="samples">
+    <img src="./dataset/handwritting_names/train_v2/train/TRAIN_00412.jpg" alt="samples">
+    <img src="./dataset/handwritting_names/train_v2/train/TRAIN_00413.jpg" alt="samples">
   <figcaption><em>Samples from Handwritten Names dataset</em></figcaption>
 </figure>
 </p>
