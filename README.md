@@ -33,6 +33,7 @@ The first dataset is called the [Handwritten Characters dataset](https://www.kag
 
 <p>
     <img src="./images/handwritten-characters-samples.png" alt>
+    
     <em>Samples from Handwritten Characters dataset</em>
 </p>
 
