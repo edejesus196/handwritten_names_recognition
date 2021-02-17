@@ -31,13 +31,10 @@ Two datasets, both obtained from Kaggle.com, were used to train the models and t
 
 The first dataset is called the [Handwritten Characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0-9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
 
-```{figure} ../images/handwritten-characters-samples.png
----
-scale: 100%
-align: left
----
-Samples of images from the Handwritten Characters dataset.
-```
+<p>
+    <img src="./images/handwritten-characters-samples.png" alt>
+    <em>Samples from Handwritten Characters dataset</em>
+</p>
 
 The second dataset is called the [Handwritten names dataset](https://www.kaggle.com/landlord/handwriting-recognition). This dataset was  used to test the model’s ability to recognize characters of unseen data by predicting on individual characters and then appending these predictions into one word and  forming a name.  The dataset contains 206,799 images of first names and 207,024 of last names. 
 
