@@ -36,6 +36,9 @@ The first dataset is called the [Handwritten Characters dataset](https://www.kag
     <em>Samples from Handwritten Characters dataset</em>
 </p>
 
+![]("./images/handwritten-characters-samples.png")
+*Samples from Handwritten Characters dataset*
+
 The second dataset is called the [Handwritten names dataset](https://www.kaggle.com/landlord/handwriting-recognition). This dataset was  used to test the model’s ability to recognize characters of unseen data by predicting on individual characters and then appending these predictions into one word and  forming a name.  The dataset contains 206,799 images of first names and 207,024 of last names. 
 
 **--Images of smaples from dataset go here--**
