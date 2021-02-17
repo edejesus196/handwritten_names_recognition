@@ -31,14 +31,13 @@ Two datasets, both obtained from Kaggle.com, were used to train the models and t
 
 The first dataset is called the [Handwritten Characters dataset](https://www.kaggle.com/vaibhao/handwritten-characters). This dataset was used to train the models to recognize the different characters. It contains 39 classes in total. This includes all lowercase and uppercase English alphabet character, digits from 0-9, and some special characters, which include @, #, $, &. This dataset is divided into  834,036 training samples and 22,524 validation samples.
 
-<p>
-    <img src="./images/handwritten-characters-samples.png" alt>
-    <em>Samples from Handwritten Characters dataset</em>
-</p>
 
-![handwritten-characters-samples.png]("./images/handwritten-characters-samples.png")
-*Samples from Handwritten Characters dataset*
-
+<style>
+figcaption {
+  padding: 0px;
+  text-align: left;
+}
+</style>
 <p>
 <figure>
   <img src="./images/handwritten-characters-samples.png" alt="samples">
