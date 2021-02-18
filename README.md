@@ -73,7 +73,7 @@ Three models were trained on the Handwritten Character dataset. The baseline mod
 <p><img src="./images/webb-app.gif"></p>
 
 ## Next Steps
-Below are next steps I plan to take to improve this project and other projects I would like to explore in the future.
+Below are next steps I plan to take to improve accuracy and to expand on the capabilities of the web app.
 1. Use dictionary to improve name predictions accuracy.
 2. Transcribe larger handwritten documents.
 3. Transcribe scripted documents.
