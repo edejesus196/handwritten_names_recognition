@@ -60,9 +60,9 @@ Three models were trained on the Handwritten Character dataset. The baseline mod
 
 |Model      |Description                 |Val set loss|Val set accuracy|
 |:----------|:---------------------------|:-----------|:---------------|
-|KNN Model  |1 Neighbor                  |--          |93.55%          |
-|[CNN Model](https://github.com/edejesus196/handwritten_names_recognition/blob/main/cnn_model_1.ipynb) 1|4 layers, 163,367 parameters|0.1826      |94.62%          |
-|CNN Model 2|7 layers, 345,959 parameters|0.0864      |97.19%          |
+|[KNN Model](https://github.com/edejesus196/handwritten_names_recognition/blob/main/knn_baseline_model.ipynb)  |1 Neighbor                  |--          |93.55%          |
+|[CNN Model 1](https://github.com/edejesus196/handwritten_names_recognition/blob/main/cnn_model_1.ipynb)|4 layers, 163,367 parameters|0.1826      |94.62%          |
+|[CNN Model 2](https://github.com/edejesus196/handwritten_names_recognition/blob/main/cnn_model_3.ipynb)|7 layers, 345,959 parameters|0.0864      |97.19%          |
 
 ##### Best performing CNN model architecture
 
