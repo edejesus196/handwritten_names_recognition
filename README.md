@@ -6,10 +6,16 @@ Author: [Edward De Jesus](https://github.com/edejesus196) | Web App developer: [
 ## Repository Structure
     
     ├── images                            Images
+    ├── picke_files                       Validation dataset
     ├── presentation                      Final PowerPoint presentation slideshows
-    ├── main_notebook.ipynb               Final notebook 
-    ├── pneumoniaCDC2010.csv              CDC data used for timeseries chart of pnuemoia cases
-    └── README.md                         ReadMe
+    ├── saved_models                      CNN_model_1, CNN_model_2 and CNN_model_3
+    ├── web                               Web app files
+    ├── README.md                         ReadMe
+    ├── cnn_model_1.ipynb                 working notebook for cnn model 1
+    ├── cnn_model_2.ipynb                 working notebook for cnn model 2
+    ├── cnn_model_3.ipynb                 working notebook for cnn model 3
+    ├── knn_baseline_model.ipynb          working notebook for knn baseline model
+    └── main_summary_notebook.ipynb       Final summary notebook 
 
 ## Overview
 
@@ -41,11 +47,9 @@ The first dataset is called the [Handwritten characters dataset](https://www.kag
 The second dataset is called the [Handwritten names dataset](https://www.kaggle.com/landlord/handwriting-recognition). This dataset was  used to test the model’s ability to recognize characters of unseen data by predicting on individual characters and then appending these predictions into one word and  forming a name.  The dataset contains 206,799 images of first names and 207,024 of last names. 
 
 
-
-<kbd><img src="./images/TRAIN_00411.jpg" alt="samples"></kbd>
-<kbd><img src="./images/TRAIN_00412.jpg" alt="samples"></kbd>
-<figure>  
-<p> 
+<figure>
+    <kbd><img src="./images/TRAIN_00411.jpg" alt="samples"></kbd>
+    <kbd><img src="./images/TRAIN_00412.jpg" alt="samples"></kbd>
     <kbd><img src="./images/TRAIN_00413.jpg" alt="samples"></kbd>
   <figcaption><em>Samples from Handwritten Names dataset</em></figcaption>
 </figure>
